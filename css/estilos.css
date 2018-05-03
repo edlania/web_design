@@ -1,0 +1,66 @@
+div, p  {
+	font-size: 30px;
+}
+
+div h1 {
+	color: yellow;
+}
+
+
+#principal h1 {
+	background-color: #2536C4;
+}
+
+.titulo {
+	font-style: italic;
+}
+
+p {
+	tex-align: justify;
+}
+
+table {
+	border-radius: 15px;
+	background-color: #ffc282;
+	font-family: Verdana;
+	
+	
+}
+
+
+table tr:nth-child(odd) td {
+	background-color:#FFFFFF;
+}
+
+
+table tr:first-child td:nth-child(1) {
+	border-top-left-radius: 10px;
+}
+
+table tr:first-child td:nth-child(2) {
+	border-top-right-radius: 10px;
+}
+
+table tr:last-child td:nth-child(1) {
+	border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:nth-child(2) {
+	border-bottom-right-radius: 10px;
+}
+
+table thead tr td {
+	font-weight: bold;
+}
+
+table tr:nth-child(odd) td {
+	background-color:#E69F55;
+}
+
+table tr:hover td {
+	background: #dddddd
+}
+
+table tr td {
+	padding: 5px;
+}

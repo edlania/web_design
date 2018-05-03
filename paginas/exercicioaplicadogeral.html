@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="ISO-8859-1">
+		<div>
+		<title>Cadastro de Pessoas</title>
+		</div>
+
+
+			<div id="principal">
+			<img src= "https://s3.bukalapak.com/img/363035453/w-1000/Tambah_User_Software_POSX_Retail_Eceran.jpg" width= "100"/>
+			</div>
+
+
+		<link rel="stylesheet" type="text/css" href="../css/aula1.css">
+	</head>
+	<body>
+	<form>
+	<table border="3" width="600">
+			<tr>
+				<td colspan="2" align="center">
+					<div id="cabecalho">
+					<b>Realize seu Cadastro</b>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b><label for="id_nome" id="alguma"> Nome: </label></b>
+				</td>
+				<td>
+					<input type="text" id="id_nome" name="nome" placeholder="Digite o seu nome" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>Gênero:</b>
+				</td>
+				<td>
+					<label for="id_genero"> Masculino </label>
+					<input type="radio" id="id_genero_m" name="genero" />
+
+					<label for="id_genero"> Feminino </label>
+					<input type="radio" id="id_genero_f" name="genero" />
+				</td>
+			</tr>
+			<tr>
+
+			<td>
+			<b><label for="id_senha">  Criar Senha: </label></b>
+			</td>
+				<td>
+				<input type="password" id="id_senha" name="senha" placeholder="Digite uma senha" />
+			</td>
+		</tr>
+			<td>
+			<b><label for="id_confirmar_senha">  Confirme a sua Senha: </label></b>
+			</td>
+				<td><input type="password" id="id_confirmar_senha" name="confirmar_senha" placeholder="Confirme sua senha" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b><label for="id_cidade">  Cidade: </label></b>
+			</td>
+			<td>
+				<input type="text" id="id_cidade" name="cidade" placeholder="Digite sua cidade" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<b><label for="id_estado"> Estado: </label></b>
+			</td>
+			<td>
+			<select id="id_estado" name="signo">
+				<b><option value="">Selecione o seu Estado</option></b>
+				<option value="1">SP</option>
+				<option value="2">RJ</option>
+				<option value="3">PB</option>
+				<option value="4">AC</option>
+				<option value="5">PR</option>
+			</select>
+			</td>
+		</tr>
+				<tr>
+				<td>
+					<b><label for="id_qualidades">Digite suas Qualidades</label></b>
+				</td>
+				<td>
+					<textarea id="id_qualidades" name="short_qualidades"></textarea></td>
+				</tr>
+				<tr>
+				<td>
+				</td>
+				<td>
+							<input type="reset" value="Limpar" />
+							<input type="submit" value="Enviar" />
+				</td>
+			</table>
+			</form>
+	</body>
+</html>
